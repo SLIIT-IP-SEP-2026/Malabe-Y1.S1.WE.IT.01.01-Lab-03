@@ -1,0 +1,28 @@
+import java.util.scanner;
+
+public class IT26102587LAB3Q1A {
+   
+     public class void main(string args [])) {
+	
+	
+         double priceperkg,quantity,totalAmount;
+         
+         Scanner input = new scanner (system.in);
+
+         System.out.print("Enter the price of 1kg of rice: ");
+         priceperkg = input.nextdouble();
+
+         systrm.out.print("Enter the number of kilograms: ");
+         quantity = input.nextdouble();
+
+         totalAmount = priceperkg * quantity;
+
+         System.out.println();
+         System.out.println("The total amount is: " + totalAmount)
+
+         input.close();
+
+	 }		 
+
+
+}
